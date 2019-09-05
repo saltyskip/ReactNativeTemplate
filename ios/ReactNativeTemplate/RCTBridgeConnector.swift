@@ -24,7 +24,7 @@ class ReactBridgeConnector: NSObject {
     let viewBridge = createBridgeIfNeeded()
     let rootView: RCTRootView = RCTRootView(
       bridge: viewBridge,
-      moduleName: moduleName,
+      moduleName: moduleName, 
       initialProperties: initialProperties)
     return rootView
   }

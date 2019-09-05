@@ -20,4 +20,8 @@ class Flow1Coordinator: NSObject {
       return
     }
   }
+  
+  @objc static func requiresMainQueueSetup() -> Bool {
+    return false
+  }
 }

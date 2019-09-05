@@ -15,14 +15,15 @@
 		1EBF9161B3DC81CD8B4BE64A /* libPods-ReactNativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B825F4BCBE17948C9A514EDB /* libPods-ReactNativeTemplate.a */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativeTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTemplateTests.m */; };
-		358112C723209A3A005B1911 /* Flow1Screen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112C623209A3A005B1911 /* Flow1Screen1.swift */; };
 		358112CA23209AD9005B1911 /* Flow1Coordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 358112C923209AD9005B1911 /* Flow1Coordinator.m */; };
 		358112CC23209B8A005B1911 /* Flow1Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112CB23209B8A005B1911 /* Flow1Coordinator.swift */; };
 		358112CE23209C40005B1911 /* RCTBridgeConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112CD23209C40005B1911 /* RCTBridgeConnector.swift */; };
 		358112D023209E2C005B1911 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112CF23209E2C005B1911 /* MainTabBar.swift */; };
-		358112D323209E71005B1911 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112D223209E71005B1911 /* Tab1ViewController.swift */; };
-		358112D523209E7D005B1911 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112D423209E7D005B1911 /* Tab2ViewController.swift */; };
-		358112D723209E91005B1911 /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112D623209E91005B1911 /* Tab3ViewController.swift */; };
+		358112D92320D448005B1911 /* TabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112D82320D448005B1911 /* TabbarCoordinator.swift */; };
+		358112DB2320D463005B1911 /* TabbarCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 358112DA2320D463005B1911 /* TabbarCoordinator.m */; };
+		358112DD2320D678005B1911 /* ReactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112DC2320D678005B1911 /* ReactViewController.swift */; };
+		358112E12320D9C6005B1911 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112E02320D9C6005B1911 /* UIApplication.swift */; };
+		358112E32320E22A005B1911 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358112E22320E22A005B1911 /* UIViewController.swift */; };
 		35A4C361231E3C6B001538C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A4C360231E3C6B001538C6 /* AppDelegate.swift */; };
 		91640BDF015C8D888D0DB02E /* libPods-ReactNativeTemplate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC73C3AECBAFB2C8630345C /* libPods-ReactNativeTemplate-tvOSTests.a */; };
 /* End PBXBuildFile section */
@@ -56,14 +57,15 @@
 		18A9655C5A3252AEF0363EBC /* Pods-ReactNativeTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplateTests/Pods-ReactNativeTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ReactNativeTemplate-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeTemplate-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNativeTemplate-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeTemplate-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		358112C623209A3A005B1911 /* Flow1Screen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow1Screen1.swift; sourceTree = "<group>"; };
 		358112C923209AD9005B1911 /* Flow1Coordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flow1Coordinator.m; sourceTree = "<group>"; };
 		358112CB23209B8A005B1911 /* Flow1Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flow1Coordinator.swift; sourceTree = "<group>"; };
 		358112CD23209C40005B1911 /* RCTBridgeConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RCTBridgeConnector.swift; path = ReactNativeTemplate/RCTBridgeConnector.swift; sourceTree = "<group>"; };
 		358112CF23209E2C005B1911 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
-		358112D223209E71005B1911 /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
-		358112D423209E7D005B1911 /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
-		358112D623209E91005B1911 /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
+		358112D82320D448005B1911 /* TabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarCoordinator.swift; sourceTree = "<group>"; };
+		358112DA2320D463005B1911 /* TabbarCoordinator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarCoordinator.m; sourceTree = "<group>"; };
+		358112DC2320D678005B1911 /* ReactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReactViewController.swift; path = ReactNativeTemplate/ReactViewController.swift; sourceTree = "<group>"; };
+		358112E02320D9C6005B1911 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		358112E22320E22A005B1911 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		35A4C35F231E3C6B001538C6 /* ReactNativeTemplate-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeTemplate-Bridging-Header.h"; sourceTree = "<group>"; };
 		35A4C360231E3C6B001538C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ReactNativeTemplate/AppDelegate.swift; sourceTree = "<group>"; };
 		4B590346E7EE64EB0A3CE168 /* Pods-ReactNativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTemplate/Pods-ReactNativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				358112DF2320D96F005B1911 /* Extensions */,
 				358112D123209E53005B1911 /* MainTabbar */,
 				358112C423209A0C005B1911 /* Flow2 */,
 				358112C323209A02005B1911 /* Flow1 */,
@@ -147,6 +150,7 @@
 				35A4C360231E3C6B001538C6 /* AppDelegate.swift */,
 				35A4C35F231E3C6B001538C6 /* ReactNativeTemplate-Bridging-Header.h */,
 				358112CD23209C40005B1911 /* RCTBridgeConnector.swift */,
+				358112DC2320D678005B1911 /* ReactViewController.swift */,
 			);
 			name = ReactNativeTemplate;
 			sourceTree = "<group>";
@@ -167,7 +171,6 @@
 		358112C323209A02005B1911 /* Flow1 */ = {
 			isa = PBXGroup;
 			children = (
-				358112C623209A3A005B1911 /* Flow1Screen1.swift */,
 				358112C923209AD9005B1911 /* Flow1Coordinator.m */,
 				358112CB23209B8A005B1911 /* Flow1Coordinator.swift */,
 			);
@@ -186,12 +189,21 @@
 			isa = PBXGroup;
 			children = (
 				358112CF23209E2C005B1911 /* MainTabBar.swift */,
-				358112D223209E71005B1911 /* Tab1ViewController.swift */,
-				358112D423209E7D005B1911 /* Tab2ViewController.swift */,
-				358112D623209E91005B1911 /* Tab3ViewController.swift */,
+				358112D82320D448005B1911 /* TabbarCoordinator.swift */,
+				358112DA2320D463005B1911 /* TabbarCoordinator.m */,
 			);
 			name = MainTabbar;
 			path = ReactNativeTemplate/MainTabbar;
+			sourceTree = "<group>";
+		};
+		358112DF2320D96F005B1911 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				358112E02320D9C6005B1911 /* UIApplication.swift */,
+				358112E22320E22A005B1911 /* UIViewController.swift */,
+			);
+			name = Extensions;
+			path = ReactNativeTemplate/Extensions;
 			sourceTree = "<group>";
 		};
 		6CFAE9BDF2A493BCCA5427FC /* Pods */ = {
@@ -576,15 +588,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				358112D723209E91005B1911 /* Tab3ViewController.swift in Sources */,
-				358112D323209E71005B1911 /* Tab1ViewController.swift in Sources */,
+				358112DD2320D678005B1911 /* ReactViewController.swift in Sources */,
 				358112D023209E2C005B1911 /* MainTabBar.swift in Sources */,
 				35A4C361231E3C6B001538C6 /* AppDelegate.swift in Sources */,
-				358112D523209E7D005B1911 /* Tab2ViewController.swift in Sources */,
+				358112E32320E22A005B1911 /* UIViewController.swift in Sources */,
+				358112DB2320D463005B1911 /* TabbarCoordinator.m in Sources */,
 				358112CE23209C40005B1911 /* RCTBridgeConnector.swift in Sources */,
 				358112CA23209AD9005B1911 /* Flow1Coordinator.m in Sources */,
 				358112CC23209B8A005B1911 /* Flow1Coordinator.swift in Sources */,
-				358112C723209A3A005B1911 /* Flow1Screen1.swift in Sources */,
+				358112D92320D448005B1911 /* TabbarCoordinator.swift in Sources */,
+				358112E12320D9C6005B1911 /* UIApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
